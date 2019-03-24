@@ -1,5 +1,9 @@
 API Reference
 =================================
+Created on March, 2018
+
+@author: Bowen Ma
+
 .. automodule:: hw1_Ma_Bowen
     :members:
     :undoc-members:
