@@ -1,4 +1,4 @@
-API Reference
+Auto Generating Code Documentation
 =================================
 Created on March, 2018
 
