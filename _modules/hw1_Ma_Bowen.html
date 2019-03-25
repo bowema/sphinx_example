@@ -67,10 +67,10 @@
 <span class="sd">       or update the virtual environment on EC2 instance.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="n">ec2_address</span> <span class="o">=</span> <span class="s2">&quot;ec2-12-123-123-123.us-west-2.compute.amazonaws.com&quot;</span>
-    <span class="c1">#ec2_address = &quot;ec2-52-53-158-218.us-west-1.compute.amazonaws.com&quot;</span>
+    <span class="c1"># ec2_address = &quot;ec2-52-53-158-218.us-west-1.compute.amazonaws.com&quot;</span>
     <span class="n">user</span> <span class="o">=</span> <span class="s2">&quot;ec2-user&quot;</span>
     <span class="n">key_file</span> <span class="o">=</span> <span class="s2">&quot;/.ssh/msan603.pem&quot;</span>
-    <span class="c1">#key_file = &quot;/usf/18fall1/bowenma.pem&quot;</span>
+    <span class="c1"># key_file = &quot;/usf/18fall1/bowenma.pem&quot;</span>
 
     <span class="n">ssh</span> <span class="o">=</span> <span class="n">ssh_client</span><span class="p">()</span>
     <span class="n">ssh_connection</span><span class="p">(</span><span class="n">ssh</span><span class="p">,</span> <span class="n">ec2_address</span><span class="p">,</span> <span class="n">user</span><span class="p">,</span> <span class="n">key_file</span><span class="p">)</span>
